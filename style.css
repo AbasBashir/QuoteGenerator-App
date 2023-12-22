@@ -5,6 +5,10 @@
     font-family: 'lato', sans-serif;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 
 body{
     display: flex;
@@ -16,4 +20,19 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.container{
+    width: 500px;
+    height: 450px;
+}
+
+.header{
+    font-size: 2.4rem;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #262626;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 10px;
 }
